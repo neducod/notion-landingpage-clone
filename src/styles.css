@@ -1,0 +1,75 @@
+#nosey{
+    width: 100%;
+    max-width: 786px;
+}
+#h1{
+    font-weight: 700;
+    font-family: 700 3.375rem / 3.5rem NotionInter,Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,"Apple Color Emoji",Arial,sans-serif,"Segoe UI Emoji","Segoe UI Symbol;
+}
+#p{
+    font-weight: 400;
+    font-family:  NotionInter,Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,"Apple Color Emoji",Arial,sans-serif,"Segoe UI Emoji","Segoe UI Symbol";
+    text-align: center;
+    max-width: 450px;
+    display: block;
+    margin: 16px auto;
+    color: #191918;
+}
+
+
+
+#btn{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    word-break: break-all;
+    white-space: nowrap;
+    height: auto;
+    color: #fff;
+    background-color: #0075de;
+    border-color: #fff0;
+    border-radius: 0.5rem;
+    min-height: 2.875rem;
+    padding: .6875rem 1.25rem;
+}
+#btnn{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    word-break: break-all;
+    white-space: nowrap;
+    height: auto;
+    color: #161754;
+    border-color: #fff0;
+    min-height: 2.875rem;
+    padding: .6875rem 1.25rem;
+    background-color: #e6fef3;
+    border-radius: 0.5rem;
+}
+/*class="text-white bg-[#0075de] border-white min-h-[2.857rem] py-[0.6875rem] px-[1.25rem] w-full"
+
+class="text-black bg-[#e6fef3] border-white min-h-[2.875rem] py-[0.6875rem] px-[1.25rem] w-full h-auto">
+*/
+
+
+
+#videoo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 90px;
+}
+#video{
+    display: block;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 1140px;
+    vertical-align: initial;
+    box-sizing: border-box;
+    isolation: isolate;
+    aspect-ratio: var(--video-aspect-ratio);
+    display: block;
+    width: 100%;
+    height: auto;
+    --video-aspect-ratio: 2560 / 1600;
+}
